@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  m0leconos:
+    container_name: m0leconos
+    build: .
+    ports:
+      - "6745:6745"
+    restart: unless-stopped
+
